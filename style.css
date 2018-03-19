@@ -1,0 +1,61 @@
+.main-header
+{
+min-height: 180px;
+}
+
+
+.clearfix::after{
+content:"";
+display:table;
+clear:both;
+}
+
+.container
+{
+width: 940px;
+margin: 0 auto;
+padding 0 10px;
+}
+
+.main-navigation
+{
+width:780px;
+min-height:70px;
+float:left;
+border: 1px double black;
+}
+
+.user-block
+{
+width:140px;
+min-height:70px;
+float:right;
+border: 1px double black;
+}
+
+
+.index-logo
+{
+width:368;
+height:284;
+margin-right:auto;
+margin-left:auto;
+margin-bottom:25px;
+border: 3px double black;
+}
+
+.features-item
+{
+border: 1px double black;
+box-sizing: border-box;
+float:left;
+width:300px;
+margin-right:20px;
+}
+
+.features-item:last-child
+{
+margin-right:0;
+}
+
+
